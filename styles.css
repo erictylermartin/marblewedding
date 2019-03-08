@@ -17,13 +17,7 @@ html {
     background-image: url("img/stairs.jpg");
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
-#parallax3 {
-    /* The image used */
-    background-image: url("img/eric&ash.jpg");
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+    height: 50%;
 }
 
 #parallax3 {
@@ -31,16 +25,18 @@ html {
     background-image: url("img/ashemmy.jpg");
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
+    height: 50%;
 }
 #parallax4 {
     /* The image used */
     background-image: url("img/lonely_river.png");
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
+    height: 50%;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     background-color: #fffef4;
     color: black;
@@ -68,8 +64,8 @@ body {
     height: 100%;
 }
 img {
-    width: 90%;
-    height: auto;
+    width: 60%;
+    height: 70%;
     padding: 2.5%;
     border: thick dotted white;
     margin-top: 5%;
@@ -102,11 +98,12 @@ input {
 
 .registry {
     font-size: 2vw;
+    padding-bottom: 5%;
 }
 
 #title {
     font-size: 9.5vw;
-    margin-top: 0;
+    margin-top: 10%;
 }
 
 #story {
@@ -114,6 +111,8 @@ input {
 
 #story p {
     font-size: 2vw;
+    padding-left: 10%;
+    padding-right: 10%;
     /* display: flex;
     justify-content: center;
     align-content: center;
@@ -129,6 +128,7 @@ input {
 
 #rsvp {
     text-align: center;
+    padding-bottom: 5%;
 }
 
 #rsvpForm {
@@ -140,9 +140,14 @@ input {
     }
     #title {
         font-size: 5.5em;
+        margin-top: 0%;
     }
     h1 {
         font-size: 3.5em;
+    }
+    img {
+        width: 90%;
+        height: auto;
     }
     .registry {
         font-size: 2.5em;
@@ -157,7 +162,20 @@ input {
         background-repeat: no-repeat;
         background-size: cover;
         /* Full height */
-        height: 50%;
+        height: 90%;
+    }
+    #parallax2 {
+        height: 15%;
+    }
+    #parallax3 {
+        height: 15%;
+    }
+    #parallax4 {
+        height: 15%;
+    }
+
+    #intro {
+        padding-top: 50%;
     }
 
     #intro::after {
@@ -176,9 +194,6 @@ input {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
-        /* Full height */
-        height: 50%;
     }
 }
 
